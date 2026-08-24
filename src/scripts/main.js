@@ -1,4 +1,5 @@
-'use strict';
+"use strict";
+import "../styles/main.scss";
 
 // прибираю скрол під менюшкою на мобільном
 
@@ -11,26 +12,26 @@
 // номер телефона при наведенні
 
 (() => {
-  const phoneNum = document.getElementById('phone-num');
-  const phone = document.getElementById('phone');
+  const phoneNum = document.getElementById("phone-num");
+  const phone = document.getElementById("phone");
 
-  phone.addEventListener('mouseenter', () => {
-    phoneNum.classList.remove('hidden');
+  phone.addEventListener("mouseenter", () => {
+    phoneNum.classList.remove("hidden");
   });
 
-  phone.addEventListener('mouseleave', () => {
-    phoneNum.classList.add('hidden');
+  phone.addEventListener("mouseleave", () => {
+    phoneNum.classList.add("hidden");
   });
 })();
 
 // додаю при прокруткі фон для шапки
 
-window.addEventListener('scroll', () => {
-  const header = document.querySelector('.header');
+window.addEventListener("scroll", () => {
+  const header = document.querySelector(".header");
 
   if (window.scrollY > 10) {
-    header.classList.add('header--scrolled');
+    header.classList.add("header--scrolled");
   } else {
-    header.classList.remove('header--scrolled');
+    header.classList.remove("header--scrolled");
   }
 });
