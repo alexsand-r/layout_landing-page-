@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
 export default defineConfig({
-  base: '/layout_landing-page/',
+  base: "/layout_landing-page-/",
 });
