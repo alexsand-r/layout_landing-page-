@@ -1,6 +1,8 @@
 "use strict";
+"use strict";
 import "../styles/main.scss";
 
+// ваш решта коду...
 // прибираю скрол під менюшкою на мобільном
 
 // window.addEventListener('hashchange', () => {
