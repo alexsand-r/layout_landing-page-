@@ -9,7 +9,7 @@ A modern, responsive landing page built with fast and up-to-date web technologie
 ---
 
 ## 🚀 Live Demo
-* **Live Website:** [View on Vercel](YOUR_VERCEL_LINK_HERE)
+* **Live Website:** [View on Vercel](https://layout-landing-page-teal.vercel.app/)
 ---
 
 ## 🛠 Technologies & Tools
@@ -23,10 +23,3 @@ This project utilizes the following technologies:
 
 ---
 
-## ⚙️ Getting Started (Local Setup)
-
-If you want to run this project locally on your computer, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/alexsand-r/layout_landing-page-.git](https://github.com/alexsand-r/layout_landing-page-.git)
