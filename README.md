@@ -9,7 +9,7 @@ A modern, responsive landing page built with fast and up-to-date web technologie
 ---
 
 ## 🚀 Live Demo
-* **Live Website:** [View on Vercel](https://layout-landing-page-teal.vercel.app/)
+* **Live Website:** [View on Vercel](https://game-2048-woad-eta.vercel.app/)
 ---
 
 ## 🛠 Technologies & Tools
