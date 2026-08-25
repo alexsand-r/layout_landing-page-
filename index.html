@@ -306,7 +306,13 @@
           <div class="footer__body">
             <h2 class="footer__title title">Contact us</h2>
             <div class="footer__content">
-              <form onsubmit="this.reset(); return false;" class="form">
+              <form
+                onsubmit="
+                  this.reset();
+                  return false;
+                "
+                class="form"
+              >
                 <div class="form__content">
                   <div class="form__line">
                     <label for="name"></label>
@@ -324,7 +330,7 @@
                     <input
                       class="form__input"
                       id="email"
-                      autocomplete="off"
+                      autocomplete="email"
                       placeholder="Email"
                       name="email"
                       type="email"
@@ -436,6 +442,5 @@
         }
       });
     </script>
-    <!-- <script type="module" src="/src/scripts/main.js"></script> -->
   </body>
 </html>
