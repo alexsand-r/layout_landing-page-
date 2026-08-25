@@ -829,14 +829,9 @@ body {
     color: $main-color-text;
 
     &:autofill,
-    &:-webkit-autofill,
-    &:autofill:hover,
-    &:-webkit-autofill:hover,
-    &:autofill:focus,
-    &:-webkit-autofill:focus {
+    &:-webkit-autofill {
       -webkit-box-shadow: 0 0 0 1000px $background-input inset !important;
       -webkit-text-fill-color: $main-color-text !important;
-      transition: background-color 5000s ease-in-out 0s;
     }
 
     &::placeholder {
