@@ -816,7 +816,7 @@ body {
   // .form__input
 
   &__input {
-    background-color: #f8f8fa;
+    background-color: $background-input;
     height: 48px;
     border-radius: 8px;
     width: 100%;
@@ -824,13 +824,13 @@ body {
     font-size: 14px;
     font-weight: $font-weight-regular;
     line-height: 1.4;
-    border: 1px solid #f8f8fa;
+    border: 1px solid $background-input;
     transition: border $transition-duration;
     color: $main-color-text;
 
     &:autofill,
     &:-webkit-autofill {
-      -webkit-box-shadow: 0 0 0 1000px #f8f8fa inset !important;
+      -webkit-box-shadow: 0 0 0 1000px $background-input inset !important;
       -webkit-text-fill-color: $main-color-text !important;
     }
 
@@ -850,7 +850,7 @@ body {
   // .form__textarea
 
   &__textarea {
-    background-color: #f8f8fa;
+    background-color: $background-input;
     border-radius: 8px;
     width: 100%;
     padding-block: 14px;
@@ -858,7 +858,7 @@ body {
     font-size: 14px;
     font-weight: $font-weight-regular;
     line-height: 1.4;
-    border: 1px solid #f8f8fa;
+    border: 1px solid $background-input;
     transition: border $transition-duration;
     color: $main-color-text;
     resize: none;
